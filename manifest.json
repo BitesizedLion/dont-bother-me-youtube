@@ -1,7 +1,7 @@
 {
     "name": "Don't bother me YouTube",
     "description": "Cleanse YouTube's Redirect URLs",
-    "version": "4.26",
+    "version": "1.0.0",
     "manifest_version": 2,
     "content_scripts": [
         {
@@ -21,12 +21,5 @@
         "38": "icon38.png",
         "48": "icon48.png",
         "128": "icon128.png",
-    },
-    "options_ui": {
-        "page": "options.html",
-        "chrome_style": true
-    },
-    "permissions": [
-        "storage"
-    ]
+    }
 }
